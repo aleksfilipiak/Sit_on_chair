@@ -1,0 +1,45 @@
+footer {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.container {
+  width: 1060px;
+  padding-bottom: 40px;
+}
+
+.copyright {
+  text-transform: capitalize;
+  float: left;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: 1px;
+}
+
+.small-icons {
+  float: right;
+  width: 145px;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.logo-footer {
+  float: right;
+  margin-left: 65px;
+  height: 100%;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 17px;
+  display: flex;
+  align-items: flex-end;
+  p{
+    span{
+      font-weight: bolder;
+    }
+  }
+}

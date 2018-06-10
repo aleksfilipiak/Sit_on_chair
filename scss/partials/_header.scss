@@ -1,0 +1,94 @@
+.nav {
+
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+
+}
+.nav-container{
+  display: flex;
+  justify-content: space-between;
+  height: content-box;
+  width: 1055px;//sprawdź czy przy kolejnych sekcjach sie to powtarza: jak tak, to zrób ogólna klase container i pododawaj ja wszedzie
+}
+.logo {
+  margin: 10px 0;
+  font-size: 14px;
+  span {
+    color: $mainMotive;
+    font-weight: bold;
+  }
+}
+
+.row-li {
+  margin: 10px 0;
+  display: flex;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  //border: 1px grey dashed;
+}
+
+.col-li {
+  margin: 0 20px;
+  box-sizing: content-box;
+  &:last-child{
+    margin-right: 0;
+  }
+  //border: 1px blue dashed;
+
+}
+
+#sublist {
+  text-transform: capitalize;
+  color: white;
+  //border: 1px red solid;
+  box-sizing: border-box;
+  position: absolute;
+  left: -31px;
+  padding: 13px 0 0 14px;
+  display: none;
+  width: 137px;
+
+}
+
+#o-firmie {
+  //border: 2px green solid;
+  position: relative;
+
+  &:hover #sublist {
+
+    display: block;
+    //border: 1px yellow solid;
+
+  }
+}
+
+#sublist li {
+  background-color: black;
+  padding: 10px 20px 7px 7px;
+  font-weight: normal;
+}
+
+#sublist li:first-child {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.empty {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 9px 12px 9px;
+  border-color: transparent transparent black transparent;
+
+}
+
+
+
